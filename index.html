@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revelação Especial</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div id="welcome-screen" class="screen active">
+            <h1 class="title">Temos uma notícia especial!</h1>
+            <p class="subtitle">Já sabemos o sexo do nosso bebê, mas queremos ver se você é bom em deduções...</p>
+            <div class="welcome-images">
+                <img src="images/1000176123.jpg" alt="Pais" class="parents-image">
+                <img src="images/1000178565.jpg" alt="Pais" class="parents-image">
+            </div>
+            <p class="challenge-text">Observe as imagens do ultrassom, analise as pistas e faça sua aposta!</p>
+            <div class="ultrasound-images">
+                <img src="images/1000148886.jpg" alt="Ultrassom" class="ultrasound-image">
+                <img src="images/1000114288.webp" alt="Ultrassom" class="ultrasound-image">
+            </div>
+            <button id="start-button" class="button">Estou pronto para adivinhar!</button>
+        </div>
+
+        <div id="question-screen" class="screen">
+            <h2 class="question-title">O que você acha?</h2>
+            <p class="question-text">Baseado nas imagens e na sua intuição, nosso bebê é:</p>
+            <div class="options">
+                <button id="boy-option" class="option-button boy">Um Príncipe 👑</button>
+                <button id="girl-option" class="option-button girl">Uma Princesa 👸</button>
+            </div>
+        </div>
+
+        <div id="correct-screen" class="screen">
+            <h2 class="result-title">Parabéns! Você acertou! 🎉</h2>
+            <p class="result-text">Você é realmente muito bom(a) em deduções!</p>
+            <div class="reveal-container">
+                <div class="reveal-animation">
+                    <img src="images/1000148886.jpg" alt="Ultrassom" class="reveal-image">
+                    <div class="reveal-text">
+                        <h3>É uma menina!</h3>
+                        <p class="baby-name">Manuella</p>
+                        <div class="baby-icons">👶🎀👑💖</div>
+                    </div>
+                </div>
+            </div>
+            <p class="message">Estamos muito felizes em compartilhar essa notícia especial com você! Nossa princesinha está a caminho e mal podemos esperar para apresentá-la ao mundo!</p>
+            <button id="share-button" class="button">Compartilhar a notícia</button>
+        </div>
+
+        <div id="incorrect-screen" class="screen">
+            <h2 class="result-title">Não foi dessa vez! 😉</h2>
+            <p class="result-text">Você não é um(a) bom(a) profeta, mas tudo bem!</p>
+            <div class="reveal-container">
+                <div class="reveal-animation">
+                    <img src="images/1000148886.jpg" alt="Ultrassom" class="reveal-image">
+                    <div class="reveal-text">
+                        <h3>É uma menina!</h3>
+                        <p class="baby-name">Manuella</p>
+                        <div class="baby-icons">👶🎀👑💖</div>
+                    </div>
+                </div>
+            </div>
+            <p class="message">Estamos muito felizes em compartilhar essa notícia especial com você! Nossa princesinha está a caminho e mal podemos esperar para apresentá-la ao mundo!</p>
+            <button id="share-button-incorrect" class="button">Compartilhar a notícia</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
