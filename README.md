@@ -1,4 +1,4 @@
-# Documentação do Projeto de Chá Revelação, fiz para compartilhar no meu trabalho entre os colegas.
+# Documentação do Projeto Chá Revelação, fiz para compartilhar no meu trabalho entre os colegas.
 
 ## Tecnologias Utilizadas
 
